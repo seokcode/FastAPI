@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 #SQLALCHEMY_DATABASE_URL = "sqlite:///./todos.db"
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:test1234!@localhost/TodoApplicationDatabase"
+SQLALCHEMY_DATABASE_URL = "postgres://wjlfhekz:b2zxn5SkMaDBx0jD1X0grlbongLMKZ68@arjuna.db.elephantsql.com/wjlfhekz"
 #SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:ehdtjr12!@127.0.0.1:3306/todoapp"
 
 
