@@ -15,7 +15,7 @@ from jose import jwt, JWTError
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
-SECRET_KEY = "6c4762653e5f77c874200b0521d0a748be083a0d57a2f1f5628750213cc0ddf6"
+SECRET_KEY = "{SECRET_KEY}"
 ALGORITHM = "HS256"
 
 templates = Jinja2Templates(directory="templates")
